@@ -1,0 +1,2 @@
+yy_state_t* yyssa=(yy_state_t*)malloc(sizeof(YYINITDEPTH));
+in line 916 yacc4.tab.c
