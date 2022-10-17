@@ -5,17 +5,17 @@
         Date:2022/10/11
         18147667093@163.com
     *************************/
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 #include<ctype.h>
-#include<string.h>
+#include<string>
 #include<map>
 #ifndef YYSTYPE
 #define YYSTYPE double
 #endif
-
+using namespace std;
 string idStr;
-map<char*,double> maps;
+map<string,double> maps;
 int yylex();
 extern int yyparse();
 FILE* yyin;
@@ -49,7 +49,7 @@ expr : expr ADD expr {$$ = $1 + $3;}
             }
     ;
 
-assign : ID EQL expr {maps[idStr]=$3;}
+assign : ID EQL expr  {maps[idStr]=$3;}
     ;
 %%
 
@@ -71,7 +71,7 @@ int yylex()
         }else if((t>='a'&&t<='z')||(t>='A'&&t<='Z')||(t=='_')){
             idStr="";
             while((t>='a'&&t<='z')||(t>='A'&&t<='Z')||(t=='_')||(t>='0'&&t<='9')){
-                idStr=idStr+t;
+                idStr=idStr+(char)t;
                 t=getchar();
             }
             //yylval=idStr;
