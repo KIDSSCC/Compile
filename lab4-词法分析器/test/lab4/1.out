@@ -1,0 +1,32 @@
+[DEBUG LAB4]: 	1		0		INT			int		
+[DEBUG LAB4]: 	1		4		ID			a			0x55aacb7575a0
+[DEBUG LAB4]: 	1		5		SEMI		;		
+[DEBUG LAB4]: 	3		0		INT			int		
+[DEBUG LAB4]: 	3		4		MAIN		main	
+[DEBUG LAB4]: 	3		8		LPAREN		(		
+[DEBUG LAB4]: 	3		9		RPAREN		)		
+[DEBUG LAB4]: 	4		0		LBRACE		{		
+[DEBUG LAB4]: 	5		4		INT			int		
+[DEBUG LAB4]: 	5		8		ID			a			0x55aacb758600
+[DEBUG LAB4]: 	5		9		SEMI		;		
+[DEBUG LAB4]: 	6		4		ID			a			0x55aacb758600
+[DEBUG LAB4]: 	6		6		ASSIGN		=		
+[DEBUG LAB4]: 	6		8		NUMBER		1		
+[DEBUG LAB4]: 	6		9		ADD			+		
+[DEBUG LAB4]: 	6		11		NUMBER		2		
+[DEBUG LAB4]: 	6		11		SEMI		;		
+[DEBUG LAB4]: 	7		4		IF			if		
+[DEBUG LAB4]: 	7		6		LPAREN		(		
+[DEBUG LAB4]: 	7		7		ID			a			0x55aacb758600
+[DEBUG LAB4]: 	7		9		LESS		<		
+[DEBUG LAB4]: 	7		11		NUMBER		5		
+[DEBUG LAB4]: 	7		11		RPAREN		)		
+[DEBUG LAB4]: 	8		8		RETURN		return	
+[DEBUG LAB4]: 	8		15		NUMBER		1		
+[DEBUG LAB4]: 	8		15		SEMI		;		
+[DEBUG LAB4]: 	9		4		RETURN		return	
+[DEBUG LAB4]: 	9		11		NUMBER		0		
+[DEBUG LAB4]: 	9		11		SEMI		;		
+[DEBUG LAB4]: 	10		0		RBRACE		}		
+[DEBUG LAB4]: 	11		0		ID			a			0x55aacb7575a0
+[DEBUG LAB4]: 	11		1		SEMI		;		

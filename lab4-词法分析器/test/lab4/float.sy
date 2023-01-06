@@ -1,0 +1,11 @@
+int   ee=10;
+int   ff=0750123;
+int   gg=0x12f;
+float me=1.732;
+float aa=0.123;
+float bb=123E2;
+float cc=12.398e4;
+float dd=12.398E-6;
+float hh=0x1.921fb6p+1;
+float ii=0x1.AP-3;
+float jj=075.17p-3;

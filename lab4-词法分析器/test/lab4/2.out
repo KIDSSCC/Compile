@@ -1,0 +1,79 @@
+[DEBUG LAB4]: 	3		0		INT			int		
+[DEBUG LAB4]: 	3		4		ID			f			0x55b5e84cb5a0
+[DEBUG LAB4]: 	3		5		LPAREN		(		
+[DEBUG LAB4]: 	3		6		RPAREN		)		
+[DEBUG LAB4]: 	3		7		LBRACE		{		
+[DEBUG LAB4]: 	4		1		INT			int		
+[DEBUG LAB4]: 	4		5		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	4		6		SEMI		;		
+[DEBUG LAB4]: 	5		1		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	5		3		ASSIGN		=		
+[DEBUG LAB4]: 	5		5		NUMBER		0		
+[DEBUG LAB4]: 	5		5		SEMI		;		
+[DEBUG LAB4]: 	6		1		WHILE		while	
+[DEBUG LAB4]: 	6		6		LPAREN		(		
+[DEBUG LAB4]: 	6		7		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	6		8		LESS		<		
+[DEBUG LAB4]: 	6		9		NUMBER		10		
+[DEBUG LAB4]: 	6		9		RPAREN		)		
+[DEBUG LAB4]: 	6		10		LBRACE		{		
+[DEBUG LAB4]: 	7		2		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	7		4		ASSIGN		=		
+[DEBUG LAB4]: 	7		6		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	7		8		MUL			*		
+[DEBUG LAB4]: 	7		10		NUMBER		2345		
+[DEBUG LAB4]: 	7		10		SEMI		;		
+[DEBUG LAB4]: 	8		1		RBRACE		}		
+[DEBUG LAB4]: 	9		1		RETURN		return	
+[DEBUG LAB4]: 	9		8		ID			a			0x55b5e84cc600
+[DEBUG LAB4]: 	9		9		SEMI		;		
+[DEBUG LAB4]: 	10		0		RBRACE		}		
+[DEBUG LAB4]: 	12		0		INT			int		
+[DEBUG LAB4]: 	12		4		MAIN		main	
+[DEBUG LAB4]: 	12		8		LPAREN		(		
+[DEBUG LAB4]: 	12		9		RPAREN		)		
+[DEBUG LAB4]: 	12		10		LBRACE		{		
+[DEBUG LAB4]: 	13		1		INT			int		
+[DEBUG LAB4]: 	13		5		ID			_testid			0x55b5e84cc650
+[DEBUG LAB4]: 	13		12		SEMI		;		
+[DEBUG LAB4]: 	14		1		ID			_testid			0x55b5e84cc650
+[DEBUG LAB4]: 	14		9		ASSIGN		=		
+[DEBUG LAB4]: 	14		11		NUMBER		0		
+[DEBUG LAB4]: 	14		11		SEMI		;		
+[DEBUG LAB4]: 	15		1		IF			if		
+[DEBUG LAB4]: 	15		3		LPAREN		(		
+[DEBUG LAB4]: 	15		4		ID			_testid			0x55b5e84cc650
+[DEBUG LAB4]: 	15		11		EQ			==		
+[DEBUG LAB4]: 	15		13		NUMBER		0		
+[DEBUG LAB4]: 	15		13		RPAREN		)		
+[DEBUG LAB4]: 	15		14		LBRACE		{		
+[DEBUG LAB4]: 	16		2		INT			int		
+[DEBUG LAB4]: 	16		6		ID			_testid			0x55b5e84cc6a0
+[DEBUG LAB4]: 	16		13		SEMI		;		
+[DEBUG LAB4]: 	17		2		INT			int		
+[DEBUG LAB4]: 	17		6		ID			_testid2			0x55b5e84cc6f0
+[DEBUG LAB4]: 	17		14		SEMI		;		
+[DEBUG LAB4]: 	18		2		ID			_testid1			0x55b5e84cc740
+[DEBUG LAB4]: 	18		10		ASSIGN		=		
+[DEBUG LAB4]: 	18		11		ID			_testid1			0x55b5e84cc740
+[DEBUG LAB4]: 	18		19		ADD			+		
+[DEBUG LAB4]: 	18		20		NUMBER		1		
+[DEBUG LAB4]: 	18		20		SEMI		;		
+[DEBUG LAB4]: 	19		1		RBRACE		}		
+[DEBUG LAB4]: 	23		1		LBRACE		{		
+[DEBUG LAB4]: 	24		2		INT			int		
+[DEBUG LAB4]: 	24		6		ID			a			0x55b5e84cc790
+[DEBUG LAB4]: 	24		7		SEMI		;		
+[DEBUG LAB4]: 	25		1		RBRACE		}		
+[DEBUG LAB4]: 	26		1		LBRACE		{		
+[DEBUG LAB4]: 	27		2		INT			int		
+[DEBUG LAB4]: 	27		6		ID			a			0x55b5e84cc7e0
+[DEBUG LAB4]: 	27		7		SEMI		;		
+[DEBUG LAB4]: 	28		1		RBRACE		}		
+[DEBUG LAB4]: 	29		1		INT			int		
+[DEBUG LAB4]: 	29		5		ID			b			0x55b5e84cc830
+[DEBUG LAB4]: 	29		6		SEMI		;		
+[DEBUG LAB4]: 	30		1		RETURN		return	
+[DEBUG LAB4]: 	30		8		NUMBER		0		
+[DEBUG LAB4]: 	30		8		SEMI		;		
+[DEBUG LAB4]: 	31		0		RBRACE		}		

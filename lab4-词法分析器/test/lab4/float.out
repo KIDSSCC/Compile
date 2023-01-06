@@ -1,0 +1,55 @@
+[DEBUG LAB4]: 	1		0		INT			int		
+[DEBUG LAB4]: 	1		6		ID			ee			0x55fcfd01b5a0
+[DEBUG LAB4]: 	1		8		ASSIGN		=		
+[DEBUG LAB4]: 	1		9		NUMBER		10		
+[DEBUG LAB4]: 	1		9		SEMI		;		
+[DEBUG LAB4]: 	2		0		INT			int		
+[DEBUG LAB4]: 	2		6		ID			ff			0x55fcfd01c600
+[DEBUG LAB4]: 	2		8		ASSIGN		=		
+[DEBUG LAB4]: 	2		9		NUMBER		249939		
+[DEBUG LAB4]: 	2		9		SEMI		;		
+[DEBUG LAB4]: 	3		0		INT			int		
+[DEBUG LAB4]: 	3		6		ID			gg			0x55fcfd01c650
+[DEBUG LAB4]: 	3		8		ASSIGN		=		
+[DEBUG LAB4]: 	3		9		NUMBER		303		
+[DEBUG LAB4]: 	3		9		SEMI		;		
+[DEBUG LAB4]: 	4		0		FLOAT		float	
+[DEBUG LAB4]: 	4		6		ID			me			0x55fcfd01c6d0
+[DEBUG LAB4]: 	4		8		ASSIGN		=		
+[DEBUG LAB4]: 	4		9		NUMBER		1.732000		
+[DEBUG LAB4]: 	4		9		SEMI		;		
+[DEBUG LAB4]: 	5		0		FLOAT		float	
+[DEBUG LAB4]: 	5		6		ID			aa			0x55fcfd01c720
+[DEBUG LAB4]: 	5		8		ASSIGN		=		
+[DEBUG LAB4]: 	5		9		NUMBER		0.123000		
+[DEBUG LAB4]: 	5		9		SEMI		;		
+[DEBUG LAB4]: 	6		0		FLOAT		float	
+[DEBUG LAB4]: 	6		6		ID			bb			0x55fcfd01c770
+[DEBUG LAB4]: 	6		8		ASSIGN		=		
+[DEBUG LAB4]: 	6		9		NUMBER		12300.000000		
+[DEBUG LAB4]: 	6		9		SEMI		;		
+[DEBUG LAB4]: 	7		0		FLOAT		float	
+[DEBUG LAB4]: 	7		6		ID			cc			0x55fcfd01c7c0
+[DEBUG LAB4]: 	7		8		ASSIGN		=		
+[DEBUG LAB4]: 	7		9		NUMBER		123980.000000		
+[DEBUG LAB4]: 	7		9		SEMI		;		
+[DEBUG LAB4]: 	8		0		FLOAT		float	
+[DEBUG LAB4]: 	8		6		ID			dd			0x55fcfd01c810
+[DEBUG LAB4]: 	8		8		ASSIGN		=		
+[DEBUG LAB4]: 	8		9		NUMBER		0.000012		
+[DEBUG LAB4]: 	8		9		SEMI		;		
+[DEBUG LAB4]: 	9		0		FLOAT		float	
+[DEBUG LAB4]: 	9		6		ID			hh			0x55fcfd01c860
+[DEBUG LAB4]: 	9		8		ASSIGN		=		
+[DEBUG LAB4]: 	9		9		NUMBER		3.141593		
+[DEBUG LAB4]: 	9		9		SEMI		;		
+[DEBUG LAB4]: 	10		0		FLOAT		float	
+[DEBUG LAB4]: 	10		6		ID			ii			0x55fcfd01c8b0
+[DEBUG LAB4]: 	10		8		ASSIGN		=		
+[DEBUG LAB4]: 	10		9		NUMBER		0.203125		
+[DEBUG LAB4]: 	10		9		SEMI		;		
+[DEBUG LAB4]: 	11		0		FLOAT		float	
+[DEBUG LAB4]: 	11		6		ID			jj			0x55fcfd01c900
+[DEBUG LAB4]: 	11		8		ASSIGN		=		
+[DEBUG LAB4]: 	11		9		NUMBER		75.169998		
+[DEBUG LAB4]: 	11		9		SEMI		;		
