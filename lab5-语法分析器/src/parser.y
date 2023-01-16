@@ -451,7 +451,6 @@ FuncParams
     ;
 FuncParam
     : Type ID {
-        
         //创建一个符号表项
         SymbolEntry *se;
         if(tempType=="INT")

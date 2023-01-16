@@ -247,8 +247,7 @@ void FunctionDef::output(int level)
     {
         paramTypeString=paramTypeString+paramsType[i]->toStr()+" ";
     }
-    fprintf(yyout, "%*cFunctionDefine function name: %s, type: %s%s)\n", level, ' ', 
-            name.c_str(), type.c_str(),paramTypeString.c_str());        //闭合括号
+    fprintf(yyout, "%*cFunctionDefine function name: %s, type: %s%s)\n", level, ' ', name.c_str(), type.c_str(),paramTypeString.c_str());        //闭合括号
     stmt->output(level + 4);
 }
 
